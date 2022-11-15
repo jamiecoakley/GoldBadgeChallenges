@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Challenge1", "Challenge1", "{D71B6D94-D201-4CE2-815E-8340DEEE4F82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K_Cafe.Data", "Challenge1\K_Cafe.Data\K_Cafe.Data.csproj", "{B72962F5-D536-40E3-95EC-6423E0C591A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K_Cafe.UI", "Challenge1\K_Cafe.UI\K_Cafe.UI.csproj", "{C43EFF84-23B6-46F6-B3DC-76CEA986012D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K_Cafe.Tests", "Challenge1\K_Cafe.Tests\K_Cafe.Tests.csproj", "{0D85BD06-3A2B-4A63-94EF-ABEA224B2132}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Challenge2", "Challenge2", "{9C175088-6712-4123-88CE-DD2D5721701C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K_Claims.Data", "Challenge2\K_Claims.Data\K_Claims.Data.csproj", "{0137B196-17DE-4F4D-91ED-D3A666B7AF1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K_Claims.UI", "Challenge2\K_Claims.UI\K_Claims.UI.csproj", "{9D079283-E799-4D0C-BC25-3D65066D50C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K_Claims.Tests", "Challenge2\K_Claims.Tests\K_Claims.Tests.csproj", "{CAF1C1A9-89BB-477F-A048-2BCB0008B240}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B72962F5-D536-40E3-95EC-6423E0C591A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B72962F5-D536-40E3-95EC-6423E0C591A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B72962F5-D536-40E3-95EC-6423E0C591A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B72962F5-D536-40E3-95EC-6423E0C591A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C43EFF84-23B6-46F6-B3DC-76CEA986012D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C43EFF84-23B6-46F6-B3DC-76CEA986012D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C43EFF84-23B6-46F6-B3DC-76CEA986012D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C43EFF84-23B6-46F6-B3DC-76CEA986012D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D85BD06-3A2B-4A63-94EF-ABEA224B2132}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D85BD06-3A2B-4A63-94EF-ABEA224B2132}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D85BD06-3A2B-4A63-94EF-ABEA224B2132}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D85BD06-3A2B-4A63-94EF-ABEA224B2132}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0137B196-17DE-4F4D-91ED-D3A666B7AF1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0137B196-17DE-4F4D-91ED-D3A666B7AF1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0137B196-17DE-4F4D-91ED-D3A666B7AF1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0137B196-17DE-4F4D-91ED-D3A666B7AF1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D079283-E799-4D0C-BC25-3D65066D50C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D079283-E799-4D0C-BC25-3D65066D50C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D079283-E799-4D0C-BC25-3D65066D50C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D079283-E799-4D0C-BC25-3D65066D50C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAF1C1A9-89BB-477F-A048-2BCB0008B240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAF1C1A9-89BB-477F-A048-2BCB0008B240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAF1C1A9-89BB-477F-A048-2BCB0008B240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAF1C1A9-89BB-477F-A048-2BCB0008B240}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B72962F5-D536-40E3-95EC-6423E0C591A7} = {D71B6D94-D201-4CE2-815E-8340DEEE4F82}
+		{C43EFF84-23B6-46F6-B3DC-76CEA986012D} = {D71B6D94-D201-4CE2-815E-8340DEEE4F82}
+		{0D85BD06-3A2B-4A63-94EF-ABEA224B2132} = {D71B6D94-D201-4CE2-815E-8340DEEE4F82}
+		{0137B196-17DE-4F4D-91ED-D3A666B7AF1A} = {9C175088-6712-4123-88CE-DD2D5721701C}
+		{9D079283-E799-4D0C-BC25-3D65066D50C4} = {9C175088-6712-4123-88CE-DD2D5721701C}
+		{CAF1C1A9-89BB-477F-A048-2BCB0008B240} = {9C175088-6712-4123-88CE-DD2D5721701C}
+	EndGlobalSection
+EndGlobal
